@@ -12,7 +12,7 @@
     "test": "npm run lint && browserify -t envify test/index.js | smokestack -b firefox | tap-status",
     "lint": "eslint --no-eslintrc -c .eslintrc index.js example/index.js test/index.js",
     "docs": "documentation build index.js --format=md > API.md",
-    "lint-css": "stylelint \"dist/maplibre-gl-compare.css\""
+    "lint-css": "stylelint \"style.css\""
   },
   "repository": {
     "type": "git",
